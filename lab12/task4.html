@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>ЛР11 задание 4</title>
+  </head>
+  <body>
+    <script>
+      const obj2 = {
+        property1: "значение 1",
+        property2: 24,
+        property3: false,
+        property4: [4, 5, 6],
+        property5: { key: "value" },
+      };
+
+      document.write("<h2>Информация об объекте obj2:</h2>");
+      document.write("<ul>");
+      for (let key in obj2) {
+        document.write(`<li><strong>${key}</strong>: ${obj2[key]}</li>`);
+      }
+      document.write("</ul>");
+    </script>
+  </body>
+</html>

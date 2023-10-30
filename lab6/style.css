@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+
+html {
+    height: 100%;
+    background-color: #c5a2a2;
+}
+
+.wrapper {
+    padding-top: 15px;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#h1-header {
+    text-align: center;
+    font-size: 46px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+}
+
+.forms .form {
+    width: 50%;
+    padding-top: 30px;
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.feedback .form {
+    padding-top: 20px;
+}
+
+.feedback .form input {
+    width: 100%;
+}
+
+fieldset {
+    width: 300px;
+}
+
+legend {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.mark {
+    padding: 5px;
+}
+
+h2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.form-field {
+    display: flex;
+    justify-content: center;
+}
+
+.form-field input {
+    width: 65%;
+    padding: 3px;
+}
+
+.send-btn input {
+    font-size: 35px;
+    margin-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+input:invalid {
+    border: 2px dashed red;
+}
+
+input:valid {
+    border: 2px solid black;
+  }

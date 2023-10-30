@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ec8f8f;
+}
+
+#span1 {
+    color: blue;
+}
+
+#span2 {
+    color: red;
+}
+
+#span3 {
+    color: green;
+}
+
+.MRK {
+    font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+}
+
+.happiness {
+    color: blueviolet;
+    font-size: 30px;
+    font-family: sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.group {
+    font-size: 25px;
+}
+
+.sex p {
+    display: block;
+    font-size: 40px;
+    color: pink;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+}
+
+.age {
+    padding-top: 50px;
+    font-size: 59px;
+    letter-spacing: 15px;
+    text-align: center;
+}
+
+.redirect_link {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.redirect_link a {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    background-color: #9c8282;
+    border-radius: 15px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.redirect_link a:hover {
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: #5f5454;
+    color: white;
+}
+
+.redirect_image {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.redirect_image img {
+    width: 100px;
+    height: 100px;
+}
+
+.shedule {
+    padding-top: 500px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    background-color: #908181;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+#kek {
+    padding-top: 1000px;
+}
+
+#sign {
+    display: flex;
+    justify-content: center;
+}
+
+#sign p {
+    padding: 15px;
+}
+
+.pictures figcaption {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.flexible_picture {
+    max-width: 100%;
+    height: auto;
+}

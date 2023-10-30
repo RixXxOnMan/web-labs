@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>Document</title>
+    </head>
+    <body class="wrapper">
+        <h1 id="h1-header">Оставьте свой отзыв о нашем культурном мероприятии!</h1>
+        <div class="data">
+            <div class="forms">
+                <div class="form" id="field-email">
+                    <div class="form-header">
+                        <h3>Ваше имя</h3>
+                    </div>
+                    <div class="form-field">
+                        <form action="#" id="forms"></form>
+                        <input type="text" name="" id="" form="forms" placeholder="Имя" required
+                             pattern="^[А-Я][а-яё]*$"/>
+                    </div>
+                </div>
+                <div class="form" id="field-email">
+                    <div class="form-header">
+                        <h3>Ваш Email</h3>
+                    </div>
+                    <div class="form-field">
+                        <input type="email" name="" id="" form="forms" placeholder="Email" 
+                            pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" required/>
+                    </div>
+                </div>
+                <div class="form" id="field-email">
+                    <div class="form-header">
+                        <h3>Ваш номер телефона</h3>
+                    </div>
+                    <div class="form-field">
+                        <input type="text" name="" id="" form="forms" placeholder="+375 (xx) yyy-yy-yy"
+                            pattern="^\+375 \((29|25|44|33)\) \d{3}-\d{2}-\d{2}$" required/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feedback">
+            <div class="form" id="field-email">
+                <div class="form-header">
+                    <h3>Ваш отзыв</h3>
+                </div>
+                <div class="form-field">
+                    <input type="text" name="" id="" form="forms"/>
+                </div>
+            </div>
+        </div>
+        <div class="rating">
+            <h2>Поставьте оценку нашему мероприятию!</h2>
+            <fieldset form="forms">
+                <legend>Оценку ставить тут</legend>
+                <div class="mark">
+                  <input type="radio" id="1" name="mark" />
+                  <label for="1">1</label>
+                </div>
+                <div class="mark">
+                  <input type="radio" id="2" name="mark" />
+                  <label for="2">2</label>
+                </div>
+                <div class="mark">
+                  <input type="radio" id="3" name="mark" />
+                  <label for="3">3</label>
+                </div>
+                <div class="mark">
+                    <input type="radio" id="4" name="mark" />
+                    <label for="4">4</label>
+                </div>
+                <div class="mark">
+                    <input type="radio" id="5" name="mark" checked />
+                    <label for="5">5</label>
+                </div>
+              </fieldset>
+        </div>
+        <div class="send-btn">
+            <input type="submit" value="Отправить" form="forms">
+        </div>
+    </body>
+</html>
+
+<!-- валидация имени почты и телефона -->
