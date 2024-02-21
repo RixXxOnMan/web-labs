@@ -1,0 +1,53 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.cl1 {
+  color: blue;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+}
+
+.cl2 {
+  color: red;
+  font-weight: 600;
+}
+
+.cl3 {
+  color: green;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.cl4 {
+  color: black;
+  border: 2px dashed #ff0000;
+}
+
+.cl5 {
+  color: blue;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.button_box {
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+#text {
+  display: inline-block;
+  font-size: 40px;
+}
+

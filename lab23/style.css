@@ -1,0 +1,38 @@
+.btns-group {
+    width: 1000px;
+    margin: auto;
+    height: 200px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #bcb0b0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.cat img {
+    width: 300px;
+    height: 300px;
+    transition: .3s ease-out all;
+}
+
+a img:hover {
+    filter: opacity(60%);
+    transition: .3s ease-out all;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    margin-top: 50px;
+}

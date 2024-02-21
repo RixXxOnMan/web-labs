@@ -1,0 +1,116 @@
+.dark {
+    background-color: rgb(35, 35, 35);
+    color: white;
+}
+
+/* 1 цвет: #d0c5c5 */
+/* 2 цвет: #686565 */
+
+.colorChangeableBtn {
+    background-color: #d0c5c5;
+    transition: 1s;
+}
+ 
+.hover {
+    background-color: #686565;
+    transition: 1s;
+}
+
+.arrows {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-top: 20px;
+}
+
+.dot {
+    display: block;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 50%;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    background-color: black;
+}
+
+.secondArrow {
+    display: block;
+    position: absolute;
+    margin-left: calc(50% + 3.5px + 1px); 
+    margin-top: calc(50% + 1.3px);
+    height: 130px;
+    width: 1px;
+    background-color: black;
+    transform-origin: 0px 0px;
+    transform: rotate(75deg);
+}
+
+.minuteArrow {
+    display: block;
+    position: absolute;
+    margin-left: calc(50% + 3.5px + 1.5px); 
+    margin-top: calc(50% + 1.5px);
+    height: 100px;
+    width: 2px;
+    background-color: black;
+    transform-origin: 0px 0px;
+} 
+
+.hourArrow {
+    display: block;
+    position: absolute;
+    margin-left: calc(50% + 3.5px + 2px); 
+    margin-top: calc(50% + 1.5px);
+    height: 70px;
+    width: 4px;
+    background-color: black;
+    transform-origin: 0px 0px;
+    transform: rotate(180deg);
+}
+
+.list0 {
+    opacity: 0;
+}
+
+.list01 {
+    opacity: 0.1;
+}
+
+.list02 {
+    opacity: 0.2;
+}
+
+.list03 {
+    opacity: 0.3;
+}
+
+.list04 {
+    opacity: 0.4;
+}
+
+.list05 {
+    opacity: 0.5;
+}
+
+.list06 {
+    opacity: 0.6;
+}
+
+.list07 {
+    opacity: 0.7;
+}
+
+.list08 {
+    opacity: 0.8;
+}
+
+.list09 {
+    opacity: 0.9;
+}
+
+.list1 {
+    opacity: 1;
+}

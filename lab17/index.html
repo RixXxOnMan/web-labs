@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- 1 -->
+        <h1 id="h1" class="h1">Hello</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, facere natus molestiae ea quibusdam
+            pariatur sapiente incidunt reiciendis? Maxime quis architecto sed voluptatibus beatae. Et accusantium totam
+            minima saepe nam!</p>
+        <img src="https://klike.net/uploads/posts/2023-02/1675496633_3-13.jpg" alt="кит" class="cat">
+        <a href="https://github.com/RixXxOnMan?tab=repositories" class="gitLink">мои проекты</a>
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <!-- 2 -->
+        <h1>создание списков</h1>
+        <div class="buttons">
+            <button type="button" class="listBtns" onclick="createRandomList(false)" id="randBtn">создать рандомный
+                список</button>
+            <button type="button" class="listBtns" onclick="createRandomList(true)" id="orderedBtn">создать упорядоченный список</button>
+            <button type="button" class="listBtns" onclick="addElement(true)" id="shiftBtn">добавить элемент в начало</button>
+            <button type="button" class="listBtns" onclick="addElement(false)" id="pushBtn">добавить элемент в конец</button>
+            <button type="button" class="listBtns" onclick="changeColorOdd()" id="changeClrBtn">изменить цвет у нечетных элементов</button>
+        </div>
+        <div class="createdList">
+
+        </div>
+        <!-- 4 -->
+        <h1>котячий переключатель</h1>
+        <figure>
+   
+        </figure>
+        <button type="button" onclick="slideCats()" id="changePic">другого котика!</button>
+        <!-- 5 -->
+        <h1>котячий слайдер</h1>
+        <div class="slider">
+            <div class="slides" id="slides">
+                <img class="slide" src="pictures/1.jpg">
+                <img class="slide" src="pictures/2.jpg">
+                <img class="slide" src="pictures/3.jpg">
+                <img class="slide" src="pictures/4.jpg">
+                <img class="slide" src="pictures/5.jpg">
+            </div>
+        </div>
+        <button type="button" onclick="nextSlide()" id="changePic">слайд на другого котика!</button>
+        <!-- 6 -->
+        <div class="siteBtns">
+            <a href="#" id="siteLink" class="siteLink">ссылка на сайт</a>
+            <button type="button" onclick="changeLinkYoutube('https://www.youtube.com/')" id="youtubeBtn">ссылка на ютуб</button>
+            <button type="button" onclick="changeLinkGoogle('https://www.google.by/')" id="googleBtn">ссылка на гугл</button>
+            <button type="button" onclick="changeLinkSibir('https://linktosiberia.ru/')" id="sibirBtn">ссылка в сибирь</button>
+        </div>
+        <!-- 7 -->
+        <h1>табличка из варианта</h1>
+    </body>
+</html>

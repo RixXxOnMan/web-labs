@@ -1,0 +1,36 @@
+.link-to-events {
+    display: block;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    color: black;
+}
+
+#third {
+    width: 300px;
+    height: 200px;
+}
+
+.task {
+    text-decoration: underline;
+}
+
+#amogus {
+    color: red;
+    font-size: 7px;
+}
+
+#input-for-events {
+    display: block;
+    width: 350px;
+    height: 30px;
+}
+
+.input-for-events {
+    display: flex;
+}

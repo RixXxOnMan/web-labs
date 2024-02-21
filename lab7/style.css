@@ -1,0 +1,119 @@
+/* {} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 30px;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.list a {
+    color: wheat;
+    transition: .5;
+}
+  
+.list a:visited {
+    color: green;
+}
+  
+.list a:hover {
+    color: red;
+    transition: .5s;
+}
+  
+.list a:active {
+    color: yellow;
+}
+
+.schedule {
+    margin-top: 30px;
+}
+
+td {
+    padding: 7px;
+}
+
+/* https://htmlbook.ru/css/nth-child */
+
+tr:nth-child(2n+1) {
+    background-color: #c4c4c4;
+}
+tr:nth-child(2n) {
+    background-color: #d87d7d;
+}
+
+tr:nth-child(1) {
+    font-size: 40px;
+    background-color: #7b7b7b;
+}
+
+.switches {
+    font-size: 20px;
+    padding: 20px;
+}
+
+input:checked {
+    border: none;
+    outline: 10px solid deeppink;
+}
+
+/* 
+Используя спрайтовые изображения, добавьте на веб-страницу
+ссылки на социальные сети
+
+https://ru.hexlet.io/blog/posts/kak-ispolzovat-css-sprayty-dlya-uvelicheniya-skorosti-zagruzki-veb-stranits
+*/
+.social {
+    display: flex;
+}
+
+/* Shared icon Class */
+span.icon a:link,
+span.icon a:visited {
+  display: block;
+  text-indent: -9999px;
+  background-image: url(sprite.png);
+  background-repeat: no-repeat;
+}
+
+/* Instagram Icon */
+span.instagram a:link,
+span.instagram a:visited {
+  width: 100px;
+  height: 100px;
+  background-position: 0 0;
+}
+
+
+/* Twitter Icon */
+span.twitter a:link,
+span.twitter a:visited {
+  width: 100px;
+  height: 100px;
+  background-position: -100px 0;
+}
+
+/* Facebook Icon */
+span.facebook a:link,
+span.facebook a:visited {
+  width: 100px;
+  height: 100px;
+  background-position: -200px 0;
+}
+/* При наведении */
+span.instagram a:hover {background-position: 0 -100px;}
+span.twitter a:hover {background-position: -100px -100px;}
+span.facebook a:hover {background-position: -200px -100px;}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 1 -->
+    <!-- 1. Создать веб-документ, содержащий форму. На форме должны 
+присутствовать текстовое поле для ввода, зависимый и независимые 
+переключатели, выпадающий список, кнопки <button>, <input type=’submit’>, 
+<input type=’reset’> и многострочное текстовое поле. -->
+    <h1 class="task">Первое задание</h1>
+    <div class="elements">
+        <iframe name="votar" style="display:none;"></iframe>
+        <form action="" target="votar" id="form">
+            <label for="input">Текстовое поле:</label><br>
+            <input type="text" name="fname" id="input"><br>
+
+            <p>Зависимые переключатели:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Мужской</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Женский</label><br>
+
+            <p>Независимые переключатели:</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Велосипед</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Автомобиль</label><br>
+
+            <label for="cars">Выберите автомобиль:</label>
+            <select id="cars" name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+
+            <br><br>
+            <button type="button" id="justBtn" onclick="interactWithInput()">Кнопка</button>
+            <input type="submit" value="Отправить" id="submitBtn" onclick="showInputs()">
+            <input type="reset" value="Сбросить" id="resetBtn" onclick="compareStrings()">
+
+            <br><br>
+            <label for="bigTextField">Многострочное текстовое поле:</label>
+            <textarea name="w3review" rows="4" cols="50" id="bigTextField">
+                </textarea>
+            <input type="button" value="5-е задание" id="eventBtn">
+        </form>
+    </div>
+    <!-- 5 -->
+    
+</body>
+
+</html>
